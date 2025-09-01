@@ -25,7 +25,7 @@ def plot_dendrogram(data, method):
  
 # Calculate the proximity matrix 
 print("Proximity matrix:") 
-pm = proximity_matrix(data);
+pm = proximity_matrix(data)
 print(proximity_matrix(data)) 
  
 # Plot the dendrogram using single-linkage 
