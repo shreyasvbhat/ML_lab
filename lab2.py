@@ -1,9 +1,8 @@
-# Visualize the n-dimensional data using 3D surface plots.
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-np.random.seed(42)  # Ensures reproducibility
+np.random.seed(42)
 n = 100
 data = pd.DataFrame({
   'X': np.random.normal(0, 1, n),
@@ -30,7 +29,6 @@ def surface_plot():
 
 surface_plot()
 
-# Write a program to implement the Best First Search (BFS) algorithm.
 import heapq
 
 class Node:

@@ -1,4 +1,3 @@
-# Write a program to develop the Naive Bayes classifier on Titanic dataset.
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB

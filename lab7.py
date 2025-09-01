@@ -1,4 +1,3 @@
-# Write a program to develop the KNN classifier with Euclidean distance and Manhattan distance for the k values as 3 based on split up of training and testing dataset as 70-30 on Glass dataset.
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split

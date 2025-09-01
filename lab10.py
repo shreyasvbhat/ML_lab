@@ -1,4 +1,3 @@
-# Write a program to develop Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) algorithms.
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.decomposition import PCA
@@ -11,7 +10,6 @@ target_names = iris.target_names
 
 print("Original Data Shape:", X.shape)
 
-# -------------------- PCA --------------------
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X)
 print("PCA Transformed Shape:", X_pca.shape)
@@ -23,7 +21,6 @@ plt.title('PCA - Principal Component Analysis')
 plt.colorbar(label='Target Class')
 plt.show()
 
-# -------------------- LDA --------------------
 lda = LDA(n_components=2)
 X_lda = lda.fit_transform(X, y)
 print("LDA Transformed Shape:", X_lda.shape)

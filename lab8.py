@@ -1,4 +1,3 @@
-# Write a program to perform unsupervised K-means clustering techniques on Iris dataset.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

@@ -23,7 +23,7 @@ def alphabeta(depth, node_index, is_maximizing_player, scores, target_depth, alp
             max_eval = max(max_eval, eval)
             alpha = max(alpha, eval)
             if beta <= alpha:
-                break  # Beta cut-off
+                break 
         return max_eval
     else:
         min_eval = float('inf')
@@ -32,7 +32,7 @@ def alphabeta(depth, node_index, is_maximizing_player, scores, target_depth, alp
             min_eval = min(min_eval, eval)
             beta = min(beta, eval)
             if beta <= alpha:
-                break  # Alpha cut-off
+                break  
         return min_eval
 
 print("Enter the depth of the game tree (e.g., 3 for 8 leaf nodes):")
